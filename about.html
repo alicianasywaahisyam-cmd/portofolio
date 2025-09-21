@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Saya | PortofolioAlicia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <style>
+        .timeline-content .journey-image {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-top: 1rem;
+            border: 1px solid var(--border-color);
+        }
+        .skills-container {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-color);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.6rem;
+        }
+        .skill-tag {
+            background-color: #EEF2FF; /* Latar belakang senada dengan warna primer */
+            color: var(--primary-color-dark);
+            padding: 0.3rem 0.8rem;
+            border-radius: 16px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div id="progress-bar"></div>
+    <nav>
+        <div class="container">
+            <a href="index.html" class="nav-logo">PortofolioAlicia</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="about.html" class="active">Tentang Saya</a></li>
+                <li><a href="portfolio.html">Portofolio</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+            </ul>
+            <div class="hamburger"><div></div><div></div><div></div></div>
+        </div>
+    </nav>
+
+    <main style="padding-top: var(--nav-height);">
+        <section>
+            <div class="container">
+                <h2 class="reveal-parent"><span class="reveal-child">Perjalanan Saya</span></h2>
+                <div class="timeline reveal-parent">
+<div class="timeline-progress"></div>
+    <div class="timeline-item left reveal-child" style="--delay: 0ms;">
+        <div class="timeline-icon"><i class="fas fa-university"></i></div>
+        <div class="timeline-content">
+            <div class="timeline-image">
+                <img src="assets/journey.jpg" alt="Binus University Campus">
+            </div>
+            <div class="timeline-text-content">
+                <p class="timeline-date">September 2023 - Sekarang</p>
+                <h3>Mahasiswa Sistem Informasi</h3>
+                <p>Perjalanan saya dimulai di <strong>BINUS University</strong>, dimana saya mendalami Analisis & Desain Sistem dari mulai fundamentalnya.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="timeline-item right reveal-child" style="--delay: 150ms;">
+        <div class="timeline-icon"><i class="fas fa-bullhorn"></i></div>
+        <div class="timeline-content">
+            <div class="timeline-image">
+                <img src="assets/journeyec.jpg" alt="Education Marketing Event">
+            </div>
+            <div class="timeline-text-content">
+                <p class="timeline-date">Mei 2023 - Juni 2024</p>
+                <h3>Education Counselor</h3>
+                <p>Terjun langsung ke dunia marketing, mengimplementasikan strategi untuk menarik minat siswa SMA melalui acara seperti Open House dan Campus Tour.</p>
+                <div class="skills-container">
+                    <span class="skill-tag">Strategi Pemasaran</span>
+                    <span class="skill-tag">Koordinasi Acara</span>
+                    <span class="skill-tag">Komunikasi Persuasif</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="timeline-item left reveal-child" style="--delay: 300ms;">
+        <div class="timeline-icon"><i class="fas fa-users-cog"></i></div>
+        <div class="timeline-content">
+            <div class="timeline-image">
+                <img src="assets/journeyspv.jpg" alt="Team Leadership">
+            </div>
+            <div class="timeline-text-content">
+                <p class="timeline-date">Juni 2024 - May 2025</p>
+                <h3>Supervisor of Education Counselor</h3>
+                <p>Dipercaya memimpin tim, merancang strategi pemasaran, dan memonitor performa untuk mencapai target rekrutmen universitas.</p>
+                <div class="skills-container">
+                    <span class="skill-tag">Kepemimpinan</span>
+                    <span class="skill-tag">Manajemen Tim</span>
+                    <span class="skill-tag">Perencanaan Strategis</span>
+                    <span class="skill-tag">Analisis Kinerja</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="timeline-item right reveal-child" style="--delay: 450ms;">
+        <div class="timeline-icon"><i class="fas fa-hands-helping"></i></div>
+        <div class="timeline-content">
+            <div class="timeline-image">
+                <img src="assets/journeyfp.jpg" alt="Student Mentorship">
+            </div>
+            <div class="timeline-text-content">
+                <p class="timeline-date">Juli 2024 - Agustus 2025</p>
+                <h3>Freshmen Leader & Partner</h3>
+                <p>Menjadi mentor bagi mahasiswa baru (Binusian 2028), memandu mereka beradaptasi melalui orientasi dan memberikan dukungan berkelanjutan dalam akademik serta pengembangan diri.</p>
+                <div class="skills-container">
+                    <span class="skill-tag">Mentorship</span>
+                    <span class="skill-tag">Public Speaking</span>
+                    <span class="skill-tag">Community Building</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="timeline-item left reveal-child" style="--delay: 600ms;">
+        <div class="timeline-icon"><i class="fas fa-award"></i></div>
+        <div class="timeline-content">
+            <div class="timeline-image">
+                <img src="assets/journeymentor.jpg" alt="Academic Tutoring">
+            </div>
+            <div class="timeline-text-content">
+                <p class="timeline-date">Untuk Semester Genap</p>
+                <h3>SASC Scholarship Mentor</h3>
+                <p>Terpilih menjadi mentor beasiswa, bertanggung jawab membimbing 4 mentee untuk mengatasi kesulitan pada mata kuliah semester genap melalui sesi tutoring personal.</p>
+                <div class="skills-container">
+                    <span class="skill-tag">Bimbingan Akademik</span>
+                    <span class="skill-tag">Metode Pengajaran</span>
+                    <span class="skill-tag">Pemecahan Masalah</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="timeline-item right reveal-child" style="--delay: 750ms;">
+        <div class="timeline-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+        <div class="timeline-content">
+            <div class="timeline-image">
+                <img src="assets/journeylab.jpg" alt="Teaching in Computer Lab">
+            </div>
+            <div class="timeline-text-content">
+                <p class="timeline-date">Desember 2024 - Sekarang</p>
+                <h3>Asisten Laboratorium</h3>
+                <p>Mengajar mata kuliah teknis <strong>UX Research & Design</strong> (Figma) dan <strong>Database Fundamentals</strong> (Oracle), mengubah konsep teoretis menjadi keahlian praktis.</p>
+                <div class="skills-container">
+                    <span class="skill-tag">Figma</span>
+                    <span class="skill-tag">Oracle SQL</span>
+                    <span class="skill-tag">Pengajaran Teknis</span>
+                    <span class="skill-tag">Manajemen Kelas</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="timeline-item left reveal-child" style="--delay: 900ms;">
+        <div class="timeline-icon"><i class="fas fa-cogs"></i></div>
+        <div class="timeline-content">
+            <div class="timeline-image">
+                <img src="assets/journeyintern.jpg" alt="ERP Software on Screen">
+            </div>
+            <div class="timeline-text-content">
+                <p class="timeline-date">Juli 2025 - September 2025</p>
+                <h3>Operation Intern</h3>
+                <p>Berkontribusi dalam pengembangan web perusahaan, kustomisasi format cetak di <strong>ERPNext</strong> (HTML & CSS), serta mendukung manajemen data operasional untuk efisiensi alur kerja.</p>
+                <div class="skills-container">
+                    <span class="skill-tag">HTML & CSS</span>
+                    <span class="skill-tag">ERPNext</span>
+                    <span class="skill-tag">Manajemen Data</span>
+                    <span class="skill-tag">Kolaborasi Tim</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="timeline-item right reveal-child" style="--delay: 750ms;">
+        <div class="timeline-icon"><i class="fas fa-users-cog"></i></div>
+        <div class="timeline-content">
+            <div class="timeline-image">
+                <img src="assets/journeysap.jpg" alt="Team Leadership">
+            </div>
+            <div class="timeline-text-content">
+                <p class="timeline-date">Sekarang</p>
+                <h3>Mahasiswa Sistem Informasi</h3>
+                <p>Saat ini sembari menjalani pekerjaan saya sebagai asisten laboratorium, saya menekuni kegiatan sehari-hari saya sebagai mahasiswa yang mengambil peminatan di <strong>ERP</strong> (Enterprise Resources Planning).</p>
+                <div class="skills-container">
+                    <span class="skill-tag">SAP</span>
+                    <span class="skill-tag">Manajemen Waktu</span>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+            </div>
+        </section>
+        
+<section id="academic-documents" class="reveal-parent">
+    <div class="container text-center reveal-child">
+        <h3>Dokumen Akademik</h3>
+        <p>Silakan unduh CV atau lihat transkrip nilai saya untuk informasi lebih lengkap.</p>
+        <div class="hero-buttons" style="justify-content: center; margin-top: 1.5rem;">
+            <a href="assets/CV Alicia Nasywaa Hisyam.pdf" class="btn btn-primary" download>Unduh CV</a>
+            <a href="assets/Transkrip Nilai.zip" class="btn btn-secondary" target="_blank">Lihat Transkrip</a>
+        </div>
+    </div>
+</section>
+            
+    </main>
+
+    <section class="cta-section reveal-parent">
+        <h2 class="reveal-child">Tertarik untuk Berkolaborasi?</h2>
+        <p class="reveal-child">Saya sedang aktif mencari peluang magang di bidang Business Analyst atau ERP Consultant. Mari lihat bagaimana saya dapat memberikan kontribusi bagi tim Anda.</p>
+        <a href="portfolio.html" class="btn reveal-child">Lihat Proyek Saya</a>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Alicia N. Hisyam</h4>
+                    <p>Mahasiswa Sistem Informasi dengan fokus pada analisis proses bisnis dan ERP.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Navigasi</h4>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="portfolio.html">Portofolio</a></li>
+                        <li><a href="contact.html">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Email</h4>
+                    <ul>
+                        <li><a href="mailto:alicia.hisyam@binus.ac.id">alicia.hisyam@binus.ac.id</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Social Media</h4>
+                    <div class="social-icons">
+                        <a href="https://linkedin.com/in/alicianasywaahisyam" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/alicianasywaahisyam-cmd" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://instagram.com/alicianasywaa" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Alicia Nasywaa Hisyam. Didesain dengan penuh semangat.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

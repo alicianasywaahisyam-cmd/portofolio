@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortofolioAlicia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="progress-bar"></div>
+    <nav>
+        <div class="container">
+            <a href="index.html" class="nav-logo">PortofolioAlicia</a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Beranda</a></li>
+                <li><a href="about.html">Tentang Saya</a></li>
+                <li><a href="portfolio.html">Portofolio</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+            </ul>
+            <div class="hamburger"><div></div><div></div><div></div></div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <canvas id="particle-canvas"></canvas>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text reveal-parent">
+                    <p class="greeting reveal-child">Halo, saya</p>
+                    <h1 class="gradient-text reveal-child">Alicia Nasywaa Hisyam.</h1>
+                    <p class="reveal-child" style="font-size: 1.1rem;">Saya merupakan mahasiswa Sistem Informasi dengan minat khusus pada analisis proses bisnis dan perancangan solusi teknologi yang efisien.</p>
+                    <div class="hero-buttons reveal-child">
+                        <a href="contact.html" class="btn btn-primary">Hubungi Saya</a>
+                        <a href="assets/CV Alicia Nasywaa Hisyam.pdf" class="btn btn-secondary" download>Unduh CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="focus">
+            <div class="container reveal-parent">
+                 <h2 class="reveal-child">Fokus Utama Saya</h2>
+                 <div class="focus-grid">
+                     <div class="focus-card reveal-child" style="--delay: 0ms;">
+                         <div class="icon"><i class="fas fa-sitemap"></i></div>
+                         <h3>Analisis Bisnis</h3>
+                         <p>Menganalisis kebutuhan dan proses bisnis untuk merumuskan solusi yang tepat guna.</p>
+                     </div>
+                     <div class="focus-card reveal-child" style="--delay: 150ms;">
+                          <div class="icon"><i class="fas fa-drafting-compass"></i></div>
+                         <h3>Desain Sistem</h3>
+                         <p>Merancang arsitektur dan alur kerja sistem yang logis dan efisien menggunakan UML.</p>
+                     </div>
+                     <div class="focus-card reveal-child" style="--delay: 300ms;">
+                          <div class="icon"><i class="fas fa-code"></i></div>
+                         <h3>Manajemen Data</h3>
+                         <p>Mengelola dan merancang basis data yang mendukung kebutuhan informasi organisasi.</p>
+                     </div>
+                 </div>
+            </div>
+        </section>
+        
+        <section id="featured-projects" style="background-color: var(--bg-secondary);">
+            <div class="container reveal-parent">
+                <h2 class="reveal-child">Portofolio Saya</h2>
+                <div class="projects-grid">
+                    <div class="project-card reveal-child" style="--delay: 0ms;">
+                        <div class="img-wrapper"><img src="assets/pawsurecover.jpg" alt="Proyek 1"></div>
+                        <div class="project-card-reveal">
+                            <h3>PawSure</h3>
+                            <a href="pawsure.html">Lihat Detail &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="project-card reveal-child" style="--delay: 150ms;">
+                         <div class="img-wrapper"><img src="assets/localfarmer1.jpg" alt="Proyek 2"></div>
+                         <div class="project-card-reveal">
+                              <h3>Florarity</h3>
+                              <a href="florarity.html">Lihat Detail &rarr;</a>
+                         </div>
+                        </div>
+
+                </div>
+                <div class="text-center mt-4 reveal-child">
+                    <a href="portfolio.html" class="btn btn-primary">Lihat Lebih Banyak</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <section class="cta-section reveal-parent">
+        <h2 class="reveal-child">Tertarik untuk Berkolaborasi?</h2>
+        <p class="reveal-child">Saya sedang aktif mencari peluang magang di bidang Business Analyst atau ERP Consultant. Mari lihat bagaimana saya dapat memberikan kontribusi bagi tim Anda.</p>
+        <a href="contact.html" class="btn reveal-child">Hubungi Saya</a>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Alicia,</h4>
+                    <p>Mahasiswa Sistem Informasi dengan ketertarikan pada analisis proses bisnis serta solusi ERP yang efisien.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Navigasi</h4>
+                    <ul>
+                        <li><a href="about.html">Tentang Saya</a></li>
+                        <li><a href="portfolio.html">Portofolio</a></li>
+                        <li><a href="contact.html">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Email</h4>
+                    <ul>
+                        <li><a href="mailto:alicia.hisyam@binus.ac.id">alicia.hisyam@binus.ac.id</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Social Media</h4>
+                    <div class="social-icons">
+                        <a href="https://linkedin.com/in/alicianasywaahisyam" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/alicianasywaahisyam-cmd" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://instagram.com/alicianasywaa" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Alicia Nasywaa Hisyam. Didesain dengan penuh semangat.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
